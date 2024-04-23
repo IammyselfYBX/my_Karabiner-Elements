@@ -1,0 +1,29 @@
+{
+    "description": "left_shift 切换中英文，长按保持shift功能",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_shift",
+                "modifiers": {
+                    "optional": [
+                        "left_control"
+                    ]
+                }
+            },
+            "to_if_alone": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": [
+                        "left_control"
+                    ]
+                }
+            ],
+            "to_if_held_down": [
+                {
+                    "key_code": "left_shift"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
