@@ -1,0 +1,21 @@
+{
+    "description": "左侧 option(WIN)+↓映射为音量-",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "down_arrow",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "volume_decrement"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
